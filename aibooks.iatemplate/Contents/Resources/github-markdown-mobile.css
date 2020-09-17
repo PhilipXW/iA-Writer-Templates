@@ -14,7 +14,7 @@
 }
 
 .markdown-body mark {
-  background-color: $brand-color;
+  background-color: #FFCC2F;
 }
 
 .markdown-body::before {

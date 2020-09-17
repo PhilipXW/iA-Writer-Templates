@@ -1,7 +1,7 @@
 
 .night-mode, .night-mode .markdown-body {
-  background-color: #101010;
-  color: #dedede;
+  background-color: #1e1e24;
+  color: #DDDDDD;
 }
 
 .night-mode .markdown-body a {
@@ -9,12 +9,16 @@
 }
 
 .night-mode .markdown-body hr {
-  background-color: #333;
+  background-color: #FFCC2F;
 }
 
 .night-mode .markdown-body blockquote {
-  color: #999;
+  color: #DDDDDD;
+  background-color: #1e1e24;
   border-left-color: #333;
+  border-left: 1px solid #828282;
+  padding-left: 15px;
+  
 }
 
 .night-mode .markdown-body kbd {
@@ -30,7 +34,7 @@
 }
 
 .night-mode .markdown-body h2 {
-  border-bottom-color: #333;
+  border-bottom-color: #FFCC2F;
 }
 
 .night-mode .markdown-body h6 {
