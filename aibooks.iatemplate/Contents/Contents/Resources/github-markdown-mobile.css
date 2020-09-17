@@ -1,15 +1,20 @@
 
 .markdown-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+//  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   word-wrap: break-word;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  line-height: 1.4;
+  line-height: 1.6;
   color: #24292e;
-  font-size: 15px;
   padding: 15px;
+}
+
+.markdown-body mark {
+  background-color: $brand-color;
 }
 
 .markdown-body::before {
@@ -113,9 +118,16 @@
 }
 
 .markdown-body h2 {
-  padding-bottom: 0.3em;
-  font-size: 1.5em;
-  border-bottom: 1px solid #eaecef;
+//  padding-bottom: 0.3em;
+//  font-size: 1.5em;
+//  border-bottom: 1px solid #eaecef;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+    border-bottom-style: solid;
+    border-color: #FFCC2F;
+    border-width: 2px;
+    line-height: 1.6;
 }
 
 .markdown-body h3 {
@@ -230,6 +242,7 @@
 
 .markdown-body pre {
   word-wrap: normal;
+  white-space: pre-wrap;
 }
 
 .markdown-body pre>code {
