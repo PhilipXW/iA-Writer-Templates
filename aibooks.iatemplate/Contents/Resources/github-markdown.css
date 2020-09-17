@@ -3,10 +3,10 @@
  // -ms-text-size-adjust: 100%;
 //  -webkit-text-size-adjust: 100%;
 
-  color: #DDDDDD;
+  color: red;
   font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
 
-  font-size: 20px;
+  font-size: 1em;
   line-height: 1.6;
   word-wrap: break-word;
   padding: 15px;
@@ -41,7 +41,7 @@
 .markdown-body kbd,
 .markdown-body pre {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 .markdown-body hr {
@@ -138,7 +138,6 @@
 }
 
 .markdown-body h2 {
-  color: #FFCC2F:
   font-szie: 1.67em;
   text-align: center;
   padding: 1rem;
@@ -213,7 +212,6 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
 }
 
 .markdown-body::before {
@@ -308,14 +306,13 @@
 .markdown-body h6 {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.25;
 }
 
 .markdown-body h1 {
   padding-bottom: 0.3em;
   font-size: 2em;
-  border-bottom: 1px solid #eaecef;
 }
 
 .markdown-body h4 {
@@ -451,9 +448,10 @@
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
-  font-size: 85%;
+	white-space: pre-wrap;
   line-height: 1.45;
-  background-color: #f6f8fa;
+  background-color: #1e1e24;
+	color: #DDDDDD;
   border-radius: 3px;
 }
 
