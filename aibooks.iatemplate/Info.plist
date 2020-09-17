@@ -21,10 +21,10 @@
 	<key>IATemplateHeaderHeight</key>
 	<integer>90</integer>
 	<key>IATemplateDescription</key>
-	<string>GitHub document style.</string>
+	<string>My blog style.</string>
 	<key>IATemplateAuthor</key>
 	<string>aibooks</string>
 	<key>IATemplateAuthorURL</key>
-	<string>https://aibooks.net</string>
+	<string>https://aibooks.net/</string>
 </dict>
 </plist>
