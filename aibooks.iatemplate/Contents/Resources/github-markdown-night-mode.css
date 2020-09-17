@@ -1,20 +1,20 @@
 
 .night-mode, .night-mode .markdown-body {
-  background-color: #101010;
-  color: #dedede;
+  background-color: #1e1e24;
+  color: #DDDDDD;
 }
 
 .night-mode .markdown-body a {
-  color: #0C63C7;
+  color: #FFCC2F;
 }
 
 .night-mode .markdown-body hr {
-  background-color: #333;
+  background-color: #FFCC2F;
 }
 
 .night-mode .markdown-body blockquote {
-  color: #999;
-  border-left-color: #333;
+  color: #DDDDDD;
+  border-left-color: #DDDDDD;
 }
 
 .night-mode .markdown-body kbd {
@@ -26,15 +26,15 @@
 }
 
 .night-mode .markdown-body h1 {
-  border-bottom-color: #333;
+  border-bottom-color: #FFCC2F;
 }
 
 .night-mode .markdown-body h2 {
-  border-bottom-color: #333;
+  border-bottom-color: #FFCC2F;
 }
 
 .night-mode .markdown-body h6 {
-  color: #999;
+  color: #DDDDDD;
 }
 
 .night-mode .markdown-body table tr {
@@ -55,5 +55,6 @@
 
 .night-mode .markdown-body code,
 .night-mode .markdown-body pre {
-  background-color: #242422;
+  background-color: black;
+  color: #DDDDDD;
 }
